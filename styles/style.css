@@ -77,8 +77,6 @@ a{
   right: 0;
   top: 64px;
 }
-
-/* и элемента с модификатором вида ключ-значение */
 .two-columns{
   width: 80%;
   display: flex;
