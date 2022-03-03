@@ -79,12 +79,6 @@ a{
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 .two-columns{
   width: 80%;
   display: flex;
@@ -214,6 +208,9 @@ a{
 .table__cell_theme_dark{
   width: 200px;
   padding-top: 0;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 .kaufman__triangle{
   position: absolute;
@@ -271,7 +268,6 @@ a{
 .column-link {
   line-height: 30px;
   font-size: 18px;
-  font-weight: bold;
   color: #f2f2f2;
   font-weight: normal;
 }
