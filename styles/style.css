@@ -1,8 +1,8 @@
 p{
-  margin: 0px;
+  margin: 0;
 }
 h1 , h2, h3{
-  margin: 0px;
+  margin: 0;
 }
 a{
   text-decoration: none;
@@ -63,7 +63,7 @@ a{
 .header__main-illustation{
   position: absolute;
   align-self: flex-end;
-  right: 0px;
+  right: 0;
   height: 608px;
   width: 765px;
   z-index: 1;
@@ -74,7 +74,7 @@ a{
   width: 568px;
   background-color: #2f80ed;
   position: absolute;
-  right: 0px;
+  right: 0;
   top: 64px;
 }
 
@@ -150,10 +150,8 @@ a{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin: 0px;
 }
 .table__text{
-  margin: 0px;
   line-height: 1.2;
   font-size: 18px;
   padding-top: 20px;
@@ -177,7 +175,7 @@ a{
   font-weight: bold;
 }
 .feynman__subtitle{
-  margin: 0px;
+  margin: 0;
   padding-top: 50px;
   line-height: 51px;
   font-size: 36px;
@@ -215,7 +213,7 @@ a{
 }
 .table__cell_theme_dark{
   width: 200px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 .kaufman__triangle{
   position: absolute;
