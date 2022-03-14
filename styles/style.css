@@ -12,6 +12,7 @@
   display: flex;
   background-color: #f2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -104,6 +105,13 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+.techniques {
+ padding-top: 100px;
+ margin: 0 auto;
+ text-align: center;
+ width: 80%;
 }
 
 .digits {
@@ -309,4 +317,18 @@
 
 .footer__social-icon {
   padding-right: 10px;
+}
+.rotation {
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotation {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
 }
